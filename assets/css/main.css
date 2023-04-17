@@ -1496,19 +1496,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #999;
+		color: #7de2bb;
 	}
 
 	form :-moz-placeholder {
-		color: #999;
+		color: #7de2bb;
 	}
 
 	form ::-moz-placeholder {
-		color: #999;
+		color: #7de2bb;
 	}
 
 	form :-ms-input-placeholder {
-		color: #999;
+		color: #7de2bb;
 	}
 
 /* Section/Article */
@@ -1527,7 +1527,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #7de2bb;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1772,7 +1772,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: #bbb5b5;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
