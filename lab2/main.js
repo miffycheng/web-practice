@@ -9,4 +9,19 @@ $(function(){
             `<tr><td>${x+1}</td><td>${(new Date(startDate.getTime()+7*x*millisecsPerDay)).toLocaleDateString().slice(5)}</td><td>${topic[x]}</td></tr>`
         );
     }
+
+    $("#frm1").append();
+
+
 });
+
+function SetFirst() {
+    document.getElementById("frm1").submit();
+    var x = document.getElementById("frm1");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+      text += x.elements[i].value + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }

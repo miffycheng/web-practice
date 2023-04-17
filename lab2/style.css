@@ -8,8 +8,15 @@ table{
     font-size: 1.5em;
 }
 
-td{
+/* td{
     border-bottom: 1px solid blue;
-}
+} */
 
-
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }

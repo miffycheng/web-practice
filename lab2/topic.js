@@ -14,4 +14,6 @@ function setMonthAndDay(startMonth, startDay){
     startDate.setSeconds(0);
 }
 
+
+
 setMonthAndDay(2,14);
