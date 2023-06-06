@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="shortcut icon" href="#"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <video id="myVideo" width="320" height="240"></video>
+        <br>
+        <button id="playBtn">Play</button>
+        <button id="fullBtn">FullScreen</button>
+        <br>
+        <div>
+            <p>
+                Volume: <span id="VolumnDisplay">?</span>
+                <button id = "lowerVolumnBtn"> - </button>
+                <button id = "higherVolumnBtn"> + </button>
+            </p>
+        </div>
+        <div>
+            <p>
+                Time: <span id="timeDisplay">? / ?</span>
+                <br>
+                <input id="ProgressBar" type="range"
+                        min="0" value="0">
+            </p>
+        </div>
+        <script src="//unpkg.com/jquery"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
